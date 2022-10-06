@@ -1,0 +1,8 @@
+create database siswa;
+create table (
+nisn int not null,
+nama_siswa varchar (30),
+jenis_kelamin varchar (10),
+jurusan varchar (10),
+primary key (nisn) 
+);
